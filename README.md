@@ -1,16 +1,34 @@
-# barbie-cyberpunk README
+﻿<h1 align="center">
+  BARBIE CYBERPUNK Theme
+</h1>
 
-## Working with Markdown
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=your-publisher-name.barbie-cyberpunk">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/your-publisher-name.barbie-cyberpunk?style=popout-square" alt="Marketplace version" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=your-publisher-name.barbie-cyberpunk#review-details">
+    <img src="https://img.shields.io/visual-studio-marketplace/stars/your-publisher-name.barbie-cyberpunk?style=popout-square" alt="Rating" />
+  </a>
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+<p align="center">
+  A vibrant dark VS Code theme with neon pink, cyan, and yellow syntax highlighting inspired by Barbie cyberpunk aesthetics.
+</p>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Preview
 
-## For more information
+<p align="center">
+  <img src="screenshots/barbie-cyberpunk.png" alt="BARBIE CYBERPUNK preview" style="max-width:100%;height:auto;" />
+</p>
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installation
 
-**Enjoy!**
+Install from the VS Code Marketplace or use the generated `.vsix`:
+
+```bash
+# copy screenshots (optional)
+node ./scripts/copy-screenshots.js
+# package
+npx vsce package
+# install resulting vsix
+code --install-extension barbie-cyberpunk-*.vsix

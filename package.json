@@ -1,10 +1,12 @@
 {
   "name": "barbie-cyberpunk",
-  "displayName": "Barbie Cyberpunk",
-  "description": "\"A high-contrast dark theme with vibrant hot-pink accents, neon cyan keywords, glowing lime strings and electric highlights. Perfect for late-night coding with maximum cyberpunk Barbie energy.",
-  "version": "0.0.1",
+  "displayName": "BARBIE CYBERPUNK Theme",
+  "description": "A vibrant dark VS Code theme with Barbie cyberpunk vibes and neon syntax highlighting.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
@@ -12,10 +14,38 @@
   "contributes": {
     "themes": [
       {
-        "label": "Barbie Cyberpunk",
+        "label": "BARBIE CYBERPUNK",
         "uiTheme": "vs-dark",
-        "path": "./themes/Barbie Cyberpunk-color-theme.json"
+        "path": "./themes/BarbieCyberpunk-color-theme.json"
       }
     ]
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/barbie-cyberpunk.png",
+      "description": "BARBIE CYBERPUNK Theme preview"
+    }
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "vscode",
+    "barbie",
+    "cyberpunk",
+    "neon",
+    "syntax"
+  ],
+  "scripts": {
+    "copy-screenshots": "node ./scripts/copy-screenshots.js",
+    "prepackage": "node ./scripts/copy-screenshots.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/barbie-cyberpunk-vscode"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#0f0c1a",
+    "theme": "dark"
   }
 }
