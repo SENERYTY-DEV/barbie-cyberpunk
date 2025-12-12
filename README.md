@@ -21,10 +21,15 @@
   <img src="https://github.com/SENERYTY-DEV/barbie-cyberpunk/blob/main/screenshots/wallper1.png?raw=true" alt="BARBIE CYBERPUNK preview" style="max-width:100%;height:auto;" />
 </p>
 
+## License
+
+This theme is licensed under the [MIT License](LICENSE.md).
+
 
 ## Installation
 
 Install from the VS Code Marketplace or use the generated `.vsix`:
+
 
 ```bash
 # copy screenshots (optional)
