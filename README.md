@@ -18,8 +18,9 @@
 ## Preview
 
 <p align="center">
-  <img src="screenshots/barbie-cyberpunk.png" alt="BARBIE CYBERPUNK preview" style="max-width:100%;height:auto;" />
+  <img src="https://github.com/SENERYTY-DEV/barbie-cyberpunk/blob/main/screenshots/wallper1.png?raw=true" alt="BARBIE CYBERPUNK preview" style="max-width:100%;height:auto;" />
 </p>
+
 
 ## Installation
 

@@ -3,7 +3,7 @@
   "displayName": "BARBIE CYBERPUNK Theme",
   "description": "A vibrant dark VS Code theme with Barbie cyberpunk vibes and neon syntax highlighting.",
   "version": "1.0.0",
-  "publisher": "your-publisher-name",
+  "publisher": "seneryty",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.85.0"
