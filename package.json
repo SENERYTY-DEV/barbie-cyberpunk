@@ -1,0 +1,21 @@
+{
+  "name": "barbie-cyberpunk",
+  "displayName": "Barbie Cyberpunk",
+  "description": "\"A high-contrast dark theme with vibrant hot-pink accents, neon cyan keywords, glowing lime strings and electric highlights. Perfect for late-night coding with maximum cyberpunk Barbie energy.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Barbie Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Barbie Cyberpunk-color-theme.json"
+      }
+    ]
+  }
+}
